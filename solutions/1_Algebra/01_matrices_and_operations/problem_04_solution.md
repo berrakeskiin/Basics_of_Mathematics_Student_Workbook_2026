@@ -44,4 +44,4 @@ BA=\begin{pmatrix}2&4\\3&7\end{pmatrix}.
 ## Verification and Consistency Checks
 
 - Determinant check: $`\det A=1`$, $`\det B=2`$. Then $`\det(AB)=8\cdot1-2\cdot3=2`$ and $`\det(BA)=2\cdot7-4\cdot3=2`$. Both equal $`\det A\cdot\det B=2`$. ✓
-- Trace check: $`\operatorname{tr}(AB)=8+1=9`$ and $`\operatorname{tr}(BA)=2+7=9`$. They are equal, as they must be ($`\operatorname{tr}(AB)=\operatorname{tr}(BA)`$ always), even though the matrices are different. ✓
+- Trace check: $`\mathrm{tr}(AB)=8+1=9`$ and $`\mathrm{tr}(BA)=2+7=9`$. They are equal, as they must be ($`\mathrm{tr}(AB)=\mathrm{tr}(BA)`$ always), even though the matrices are different. ✓
