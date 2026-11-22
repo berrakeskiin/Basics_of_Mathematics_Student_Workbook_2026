@@ -13,7 +13,7 @@ Explain why these are two independent checks of correctness.
 ## Theoretical Background and Concepts
 
 ```math
-u_{\parallel}=\operatorname{proj}_v u=\frac{u\cdot v}{v\cdot v}\,v,\qquad u_{\perp}=u-u_{\parallel}.
+u_{\parallel}=\mathrm{proj}_v u=\frac{u\cdot v}{v\cdot v}\,v,\qquad u_{\perp}=u-u_{\parallel}.
 ```
 
 ## Detailed Step-by-Step Solution
