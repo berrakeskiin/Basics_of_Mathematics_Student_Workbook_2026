@@ -31,5 +31,5 @@ Sv=\begin{pmatrix}2\\\frac12\end{pmatrix},\qquad S^{-1}(Sv)=\begin{pmatrix}\frac
 
 ## Verification and Consistency Checks
 
-- $`SS^{-1}=\operatorname{diag}(2\cdot\frac12,\ \frac12\cdot2)=I`$. ✓
+- $`SS^{-1}=\mathrm{diag}(2\cdot\frac12,\ \frac12\cdot2)=I`$. ✓
 - $`\det S=2\cdot\frac12=1`$: the scaling preserves area (a $`1\times1`$ square becomes a $`2\times\frac12`$ rectangle), and $`\det S^{-1}=1`$ too. ✓
