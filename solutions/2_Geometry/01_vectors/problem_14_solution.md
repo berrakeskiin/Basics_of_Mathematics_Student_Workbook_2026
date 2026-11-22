@@ -6,7 +6,7 @@ Given a point $`P=(4,1)`$ and a line through the origin with direction $`v=(1,2)
 
 ## Theoretical Background and Concepts
 
-- The closest point $`Q`$ on the line $`\{tv\}`$ to $`P`$ is the projection $`Q=\operatorname{proj}_v P=\dfrac{P\cdot v}{v\cdot v}v`$.
+- The closest point $`Q`$ on the line $`\{tv\}`$ to $`P`$ is the projection $`Q=\mathrm{proj}_v P=\dfrac{P\cdot v}{v\cdot v}v`$.
 - The shortest connection $`\overrightarrow{QP}=P-Q`$ is perpendicular to the line; the distance is $`\|P-Q\|`$.
 
 ## Detailed Step-by-Step Solution
