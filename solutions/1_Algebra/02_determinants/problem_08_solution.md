@@ -29,5 +29,5 @@ Since $`\det A=3\neq0`$, $`A^{-1}`$ exists:
 
 ## Verification and Consistency Checks
 
-- Example: $`A=\operatorname{diag}(3,1)`$, $`B=\begin{pmatrix}0&1\\5&0\end{pmatrix}`$ ($`\det B=-5`$). Then $`AB=\begin{pmatrix}0&3\\5&0\end{pmatrix}`$ and $`BA=\begin{pmatrix}0&1\\15&0\end{pmatrix}`$, so $`AB\neq BA`$, but both determinants equal $`-15`$. ✓
+- Example: $`A=\mathrm{diag}(3,1)`$, $`B=\begin{pmatrix}0&1\\5&0\end{pmatrix}`$ ($`\det B=-5`$). Then $`AB=\begin{pmatrix}0&3\\5&0\end{pmatrix}`$ and $`BA=\begin{pmatrix}0&1\\15&0\end{pmatrix}`$, so $`AB\neq BA`$, but both determinants equal $`-15`$. ✓
 - $`\det(A\cdot A^{-1}B)=3\cdot(-\frac53)=-5=\det B`$. ✓
