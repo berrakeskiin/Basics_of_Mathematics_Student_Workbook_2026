@@ -31,5 +31,5 @@ For an $`n\times n`$ matrix $`A`$ (here $`n=3`$):
 
 ## Verification and Consistency Checks
 
-- Test with a concrete matrix: $`A=\operatorname{diag}(-4,1,1)`$ has $`\det A=-4`$. Then $`2A=\operatorname{diag}(-8,2,2)`$ with $`\det=-32`$ ✓; $`A^2=\operatorname{diag}(16,1,1)`$ with $`\det=16`$ ✓; $`-A=\operatorname{diag}(4,-1,-1)`$ with $`\det=4`$ ✓.
+- Test with a concrete matrix: $`A=\mathrm{diag}(-4,1,1)`$ has $`\det A=-4`$. Then $`2A=\mathrm{diag}(-8,2,2)`$ with $`\det=-32`$ ✓; $`A^2=\mathrm{diag}(16,1,1)`$ with $`\det=16`$ ✓; $`-A=\mathrm{diag}(4,-1,-1)`$ with $`\det=4`$ ✓.
 - Note: $`\det(2A)\neq2\det A`$; the factor is $`2^3`$ because the matrix is $`3\times3`$.
