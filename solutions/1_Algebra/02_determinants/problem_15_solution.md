@@ -34,5 +34,5 @@ State the determinant properties you use in order and explain why the factors in
 
 ## Verification and Consistency Checks
 
-- Example: $`A=\operatorname{diag}(-2,1)`$, $`B=\operatorname{diag}(3,1)`$. Then $`A^T=A`$, and $`B^{-1}A^TB=\operatorname{diag}(\tfrac13\cdot(-2)\cdot3,\ 1)=\operatorname{diag}(-2,1)`$, whose determinant is $`-2`$. ✓
+- Example: $`A=\mathrm{diag}(-2,1)`$, $`B=\mathrm{diag}(3,1)`$. Then $`A^T=A`$, and $`B^{-1}A^TB=\mathrm{diag}(\tfrac13\cdot(-2)\cdot3,\ 1)=\mathrm{diag}(-2,1)`$, whose determinant is $`-2`$. ✓
 - The answer equals $`\det A`$, as predicted by the cancellation argument. ✓
